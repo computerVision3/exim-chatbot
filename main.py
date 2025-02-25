@@ -14,7 +14,6 @@ def home():
 def search(query: str = Query(..., description="Enter your search query")):
     result = search_by_query(query)
 
-    print("DEBUG result:", json.dumps(result, indent=4, default=str))  # Debugging
 
     if not result:
         return SearchResult(

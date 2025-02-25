@@ -1,0 +1,29 @@
+Test Case 1: Exact Bill Number
+"Find details for bill number GIA/0462/24-25"
+
+Test Case 2: Case-Insensitive Bill Number
+"find bill gia/0462/24-25"
+
+Test Case 3: Container Number
+"Show me information about container TCLU5176264"
+
+Test Case 4: Partial Container Number
+"Search for TCLU51"
+
+Test Case 5: Job Number
+"Lookup job 00027"
+
+Test Case 6: AWB/BL Number
+"Find details for AWB ASLDMM2400827"
+
+Test Case 7: Importer Name
+"Show me shipments for GHANSHYAM METAL UDYOG"
+
+Test Case 8: Embedded Number
+"Find shipment 2400827"
+
+Test Case 9: Multiple Terms
+"container TCLU5176264 for GHANSHYAM METAL"
+
+Test Case 10: Mixed Case with Spacing
+"  GiA/0462/24-25  "
